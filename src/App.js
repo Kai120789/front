@@ -3,10 +3,14 @@ import Header from './Header';
 import Button from './Button';
 
 function App() {
+  const tap2Button = () => {
+    alert('Hello!')
+  }
+
   return <div className="wrapper">
   <Header/>
   <Button outline>Button</Button>
-  <Button>Button2</Button>
+  <Button onClick={tap2Button} test>123</Button>
   <div className="content">
     <div className="container">
       <div className="content__top">

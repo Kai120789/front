@@ -9,8 +9,6 @@ function App() {
 
   return <div className="wrapper">
   <Header/>
-  <Button outline>Button</Button>
-  <Button onClick={tap2Button} test>123</Button>
   <div className="content">
     <div className="container">
       <div className="content__top">
